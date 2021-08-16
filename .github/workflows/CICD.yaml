@@ -10,8 +10,6 @@ jobs:
   puppet-validate:
     if: github.event_name == 'pull_request' && github.event.action != 'closed'
     runs-on: ubuntu-latest
-    environment:
-      name: Development
   
     steps:
       - uses: actions/checkout@v2
