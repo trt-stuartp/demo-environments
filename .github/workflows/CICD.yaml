@@ -20,4 +20,4 @@ jobs:
         run: sudo apt install puppet
       - name: Run Puppet validation
         run: puppet parser validate site.pp
-        working-directory: manifestruns-on: ubuntu-latest
+        working-directory: manifest
